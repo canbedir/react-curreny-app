@@ -1,0 +1,56 @@
+*{
+    font-family: sans-serif;
+}
+
+.curreny-wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: 250px;
+    width: 550px;
+    border: 1px solid black;
+    margin-top: 100px;
+}
+
+.title{
+    background-color: black;
+    color: white;
+    width: 100%;
+    text-align: center;
+}
+
+.curreny{
+    display: flex;
+    column-gap: 10px;
+    margin-top: 50px;
+}
+
+.right-arrow{
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.curreny input{
+    width: 100px;
+    height: 30px;
+}
+
+.curreny select{
+    width: 80px;
+    height: 35px;
+    cursor: pointer;
+}
+
+.button button{
+    width: 90px;
+    height: 35px;
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    margin-top: 20px;
+    cursor: pointer;
+}
